@@ -1,0 +1,4 @@
+.custom-border-top {
+    border-top-width: 10px !important; /* Üst kenarlık kalınlığı */
+    border-top-color: red !important; /* Üst kenarlık rengi */
+}
