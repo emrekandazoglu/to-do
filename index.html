@@ -23,28 +23,30 @@
                 </div>
             </div>
             <div class="col-md-3 d-flex justify-content-center align-items-center p-4">
-                <button onclick="AddNew()" type="button" class="btn btn-primary btn-lg w-100">Ekle</button>
+                <button onclick="Add()" type="button" class="btn btn-primary btn-lg w-100">Ekle</button>
             </div>
         </div>
 
-        <div class="container">
+        <div id="todos" class="container">
             <div class="row justify-content-center pt-4">
                 <div class="col-9 d-flex justify-content-between align-items-center p-3 bg-light rounded shadow" 
                      style="max-width: 600px; min-height: 50px; flex-wrap: wrap;">
-                    <p class="mb-0 flex-grow-1" style="max-width: 70%;">Bugün eve erken git ve alışveriş yapmayı unutma. Ayrıca kitap al.</p>
+                    <p  class="mb-0 flex-grow-1" style="max-width: 70%;">Bugün eve erken git ve alışveriş yapmayı unutma. Ayrıca kitap al.</p>
                     <div class="d-flex gap-2 flex-shrink-0">
-                        <button type="button" class="btn btn-primary btn-sm">Güncelle</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Sil</button>
+                        <button onclick="Update()" type="button" class="btn btn-primary btn-sm">Güncelle</button>
+                        <button onclick="Delete()" type="button" class="btn btn-secondary btn-sm">Sil</button>
                     </div>
                 </div>
             </div>
+
+            
         </div>
         
         
        
         
     </div>
-    
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
