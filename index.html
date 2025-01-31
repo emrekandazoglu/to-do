@@ -15,7 +15,7 @@
             </div>
         </div>
         
-        <div class="row justify-content-center">
+        <div id="addSection" class="row justify-content-center"  >
             <div class="col-md-9 p-4 bg-light rounded shadow">
                 <div class="input-group input-group-lg">
                     <span class="input-group-text">Görev</span>
@@ -24,6 +24,17 @@
             </div>
             <div class="col-md-3 d-flex justify-content-center align-items-center p-4">
                 <button onclick="Add()" type="button" class="btn btn-primary btn-lg w-100">Ekle</button>
+            </div>
+        </div>
+        <div id="editSection" class="row justify-content-center mt-3" style="display: none;">
+            <div class="col-md-9 p-4 bg-light rounded shadow">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-text">Düzenle</span>
+                    <input id="editInput" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center align-items-center p-4">
+                <button onclick="SaveEdit()" type="button" class="btn btn-success btn-lg w-100">Kaydet</button>
             </div>
         </div>
 
